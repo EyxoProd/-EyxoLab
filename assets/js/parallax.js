@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     var tipo = 1;
     var intensidade = 100;
-    var elementos = [".s1 .bloco-2 img", ".grid-container", ".s3 .checklist-container .caixa"];
+    var elementos = [".grid-container", ".s3 .checklist-container .caixa"];
 
     Parallax.Carregar(intensidade, elementos, tipo);
 });
