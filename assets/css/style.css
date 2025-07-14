@@ -448,7 +448,7 @@ body:not(.acessibilidade) .s1 .container-titulo .titulo-lab:hover {
     font-size: 27px;
     margin-bottom: -5px;
     font-weight: 300;
-    margin-left: 45px;
+    margin-left: 20px;
     letter-spacing: 1px;
 }
 
@@ -1919,7 +1919,7 @@ body.countdown .cd {
 }
 
     .s1 .conteudo .quadrados {
-        margin-left: 220px;
+        margin-left: 180px;
     }
 
     .s1 .conteudo {
