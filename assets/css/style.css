@@ -1909,6 +1909,15 @@ body.countdown .cd {
         box-sizing: content-box !important;
     }
 
+    .s1 .conteudo .bloco-1 {  
+    margin-top: 20px;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 10;
+}
+
     .s1 .conteudo .quadrados {
         margin-left: 220px;
     }
@@ -1922,7 +1931,7 @@ body.countdown .cd {
     }
 
     .s1 .container-titulo {
-        zoom: .7;
+        zoom: .8;
     }
 
     /* GRID DE QUADRADOS */
