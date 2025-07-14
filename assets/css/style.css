@@ -1912,6 +1912,7 @@ body.countdown .cd {
     .s1 .conteudo .bloco-1 {  
     margin-top: 20px !important;
     margin-left: 0 !important;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
