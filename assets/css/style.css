@@ -1910,8 +1910,8 @@ body.countdown .cd {
     }
 
     .s1 .conteudo .bloco-1 {  
-    margin-top: 20px !important;
-    margin-left: 0 !important;
+    margin-top: 20px;
+    margin-left: 0;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -2213,15 +2213,15 @@ body.countdown .cd {
     }
 
     .s5 .content h2 {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .s5 .content h3 {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .s5 .content p {
-        font-size: 16px;
+        font-size: 12px;
         line-height: 28px;
         padding: 0;
         padding-left: 15px;
