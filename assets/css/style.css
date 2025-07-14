@@ -2217,15 +2217,19 @@ body.countdown .cd {
     }
 
     .s5 .content h3 {
-        font-size: 14px;
+        font-size: 22px;
+    }
+
+    .s5 .content h4 {
+        font-size: 16px;
     }
 
     .s5 .content p {
         font-size: 12px;
-        line-height: 28px;
+        line-height: 20px;
         padding: 0;
-        padding-left: 15px;
-        padding-top: 15px;
+        padding-left: 12px;
+        padding-top: 10px;
     }
 
     body:not(.acessibilidade) .s5 .content p:hover {
