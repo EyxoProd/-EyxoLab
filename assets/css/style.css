@@ -915,6 +915,9 @@ body:not(.acessibilidade) .s4 .map:hover .iframe-container {
     box-shadow: 0 40px 42px 22px rgba(255, 255, 255, .1);
 }
 
+.location-info-mobile{
+    display: none;
+}
 
 .s4-2 {
     margin-top: 60px;
@@ -1792,17 +1795,17 @@ body.countdown .cd {
 
 @media (max-width: 768px) {
 
+    * {
+  box-sizing: border-box;
+}
+
 
     #btn-acessibilidade {
         right: 15px;
         left: auto;
         bottom: 15px;
         top: auto;
-    }
-
-
-
-  
+    } 
 
     body.acessibilidade .box-acessibilidade {
         width: 100vw;
@@ -1899,10 +1902,15 @@ body.countdown .cd {
         margin: 30px;
     }
 
-   
+    
     .s1 {
         min-height: 0;
         padding-bottom: 75px;
+        box-sizing: content-box !important;
+    }
+
+    .s1 .conteudo .quadrados {
+        margin-left: 220px;
     }
 
     .s1 .conteudo {
@@ -1914,7 +1922,7 @@ body.countdown .cd {
     }
 
     .s1 .container-titulo {
-        zoom: .7;
+        zoom: .8;
     }
 
     /* GRID DE QUADRADOS */
@@ -1940,10 +1948,36 @@ body.countdown .cd {
 
     .s1 .bloco-2 {
         margin-top: 30px;
+        
+    }
+
+    .s1 .bloco-2 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    }
+
+    .s1 .p1-desk {
+    display: block;
+    width: 100%;        /* ocupa a tela inteira */
+    max-width: unset;    /* remove limitação */
+    height: auto;
+    margin: 0;
+    background: transparent;
+    border: none;
+    object-fit: contain; /* evita distorção */
+    }
+
+    .s1 .bloco-2 .coluna-1 > figure {
+    display: flex;
+    justify-content: right;
+    width: 100%;
     }
 
     .s1 .bloco-2 .p1-desk {
-        display: none;
+        display: block;
+        max-width: 500px;
+        text-align: right;
     }
 
     .s1 .bloco-2 .p1-mob {
@@ -2073,9 +2107,7 @@ body.countdown .cd {
         align-items: flex-start;
     }
 
-    .s4 .location-info {
-        padding-left: 0;
-    }
+
 
     .s4 .text {
         font-size: 24px;
@@ -2104,9 +2136,15 @@ body.countdown .cd {
         align-items: flex-start;
     }
 
-    .s4-2 .location-info {
-        padding-left: 0;
+    .location-info-mobile {
+        display: block;
+        padding: 25px;
     }
+
+    .s4-2 .location-info {
+        display: none;
+    }
+
 
     .s4-2 .text {
         font-size: 24px;
@@ -2133,6 +2171,9 @@ body.countdown .cd {
     .s5 .titulo {
         font-size: 32px;
     }
+    .s5 .linha-2colunas {
+    flex-direction: column;
+}
 
     .s5 .bola {
         position: absolute;
